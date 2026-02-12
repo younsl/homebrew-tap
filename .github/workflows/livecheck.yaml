@@ -1,0 +1,29 @@
+name: Livecheck
+run-name: "🍺 Homebrew Formulae Livecheck #${{ github.run_number }}"
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  livecheck:
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: read
+    steps:
+      - name: Set up Homebrew
+        uses: Homebrew/actions/setup-homebrew@master
+
+      - name: Configure tap
+        run: |
+          tap_path="$(brew --repository)/Library/Taps/younsl/homebrew-tap"
+          mkdir -p "$(dirname "$tap_path")"
+          ln -s "$GITHUB_WORKSPACE" "$tap_path"
+
+      - name: Run brew livecheck
+        run: brew livecheck --tap younsl/tap
+
+      - name: Run brew audit
+        run: brew audit --tap younsl/tap
