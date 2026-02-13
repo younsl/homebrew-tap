@@ -12,22 +12,22 @@ class Kup < Formula
   on_macos do
     on_arm do
       url "https://github.com/younsl/o/releases/download/kup/#{version}/kup-darwin-arm64.tar.gz"
-      sha256 "6586ef1ea1b0baa33372849af5000a3a7d262d55c5ede2e8708f9364945c8ded"
+      sha256 "399a4af8196b82143a970eed7b2cc7dccb0e03c927b4c6344fae1470573b7e54"
     end
     on_intel do
       url "https://github.com/younsl/o/releases/download/kup/#{version}/kup-darwin-amd64.tar.gz"
-      sha256 "52368a63b51b98a8e30c8845abf850e0d5581425b740fc9a81caaa4650e2cd14"
+      sha256 "b165b244742d9d1b90901f7d879a7b90809ff2e5b21cd604da8c55b47c978568"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/younsl/o/releases/download/kup/#{version}/kup-linux-arm64.tar.gz"
-      sha256 "dd26b1376881f1269ac71674697a2935d63b0749da106212cdaa2e949cd08242"
+      sha256 "0c2468507e76b957cff6bec4d6a3c7be261979c7044ddee6331612b9c76bd366"
     end
     on_intel do
       url "https://github.com/younsl/o/releases/download/kup/#{version}/kup-linux-amd64.tar.gz"
-      sha256 "2225af33984571b76c13c9aad0833c206728f6b50d34ba84b27881666c5fca3a"
+      sha256 "76e55da34c7caa77c00eb9ce147278180720260345797b2484ea5a5f0697c8d6"
     end
   end
 
