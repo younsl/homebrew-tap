@@ -12,22 +12,22 @@ class Karc < Formula
   on_macos do
     on_arm do
       url "https://github.com/younsl/o/releases/download/karc/#{version}/karc-darwin-arm64.tar.gz"
-      sha256 "1d405277870e23a562d95de597c1f21d9dd33584bfce15069795f71c332f4d2b"
+      sha256 "eec8865202f2fa872756ed42965a921f4f639c63903bd18b93271d9f97723de6"
     end
     on_intel do
       url "https://github.com/younsl/o/releases/download/karc/#{version}/karc-darwin-amd64.tar.gz"
-      sha256 "49d97f900376aebb85b01255eab48ccf9958169320d129f616db32c856e10c3d"
+      sha256 "f29a31bccb09e8bd95e420de8bcd798752d59160082cef4322a59b09d065e16a"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/younsl/o/releases/download/karc/#{version}/karc-linux-arm64.tar.gz"
-      sha256 "f4eb61c00d8d5e3d93ec2f91a4af7386e7900179087e02f003051beb52f6c6fa"
+      sha256 "928adeed52990f8f93af06168dbd09b79ab914d8857aa37556eac8ef6aa16140"
     end
     on_intel do
       url "https://github.com/younsl/o/releases/download/karc/#{version}/karc-linux-amd64.tar.gz"
-      sha256 "c80ca32eb4cc5adf846fe7fd6a451c87684066dbe4a6a46e959ef2767e8e223f"
+      sha256 "aa142b55b3371e7c0471c3bed9026c7df4dc3702637fbaccbf679ffc82b12a73"
     end
   end
 
