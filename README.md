@@ -4,6 +4,9 @@
 [![GitHub license](https://img.shields.io/github/license/younsl/homebrew-tap?style=flat-square&color=black)](https://github.com/younsl/homebrew-tap/blob/main/LICENSE)
 [![GitHub last commit](https://img.shields.io/github/last-commit/younsl/homebrew-tap?style=flat-square&color=black)](https://github.com/younsl/homebrew-tap/commits/main)
 
+> [!NOTE]
+> This repository has [pull requests disabled](https://github.blog/changelog/2026-02-13-new-repository-settings-for-configuring-pull-request-access/) and does not accept external contributions.
+
 [Homebrew](https://brew.sh) [tap](https://docs.brew.sh/Taps) (third-party repository) for [younsl/o](https://github.com/younsl/o) CLI tools. Provides prebuilt binaries so you can install without Rust toolchain.
 
 ## Prerequisites
