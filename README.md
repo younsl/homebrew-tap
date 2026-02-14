@@ -28,6 +28,7 @@ List of installable formulae in this tap.
 
 | Repository | Formula | Version | Description |
 |------------|---------|---------|-------------|
+| [younsl/o](https://github.com/younsl/o/tree/main/box/kubernetes/karc) | [`karc`](Formula/karc.rb) | 0.1.0 | Karpenter NodePool consolidation manager CLI tool |
 | [younsl/o](https://github.com/younsl/o/tree/main/box/kubernetes/kup) | [`kup`](Formula/kup.rb) | 0.1.0 | Interactive EKS cluster upgrade CLI tool |
 | [younsl/o](https://github.com/younsl/o/tree/main/box/tools/ij) | [`ij`](Formula/ij.rb) | 0.1.0 | Interactive EC2 Session Manager connection tool with fuzzy search |
 | [younsl/o](https://github.com/younsl/o/tree/main/box/kubernetes/promdrop) | [`promdrop`](Formula/promdrop.rb) | 0.1.0 | Prometheus metric filter configuration generator |
