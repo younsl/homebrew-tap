@@ -1,0 +1,11 @@
+# macOS
+.DS_Store
+
+# Homebrew
+*.bottle*
+
+# Editor
+*.swp
+*~
+.vscode/
+.idea/
