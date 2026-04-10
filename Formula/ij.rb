@@ -1,7 +1,7 @@
 class Ij < Formula
   desc "Interactive EC2 Session Manager connection tool with fuzzy search"
   homepage "https://github.com/younsl/o/tree/main/box/tools/ij"
-  version "0.3.0"
+  version "0.4.0"
   license "MIT"
 
   livecheck do
@@ -12,22 +12,22 @@ class Ij < Formula
   on_macos do
     on_arm do
       url "https://github.com/younsl/o/releases/download/ij/#{version}/ij-darwin-arm64.tar.gz"
-      sha256 "0d938e82198e13a4a1b2fdcc675b27d94af52487d10438a3929b8a10478b850d"
+      sha256 "9a44faeb8de10b50887bf099c319a8c3ae86dcec1a5cf985889102aad035fda9"
     end
     on_intel do
       url "https://github.com/younsl/o/releases/download/ij/#{version}/ij-darwin-amd64.tar.gz"
-      sha256 "44dda227be7d8e58da71ef25dff414541f762fab99a415e4617a94bddd32a45d"
+      sha256 "e176ac6b4022f3913b0f9b45ca21d5ae2f2f1d8daca75339ae26d62b84e2af20"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/younsl/o/releases/download/ij/#{version}/ij-linux-arm64.tar.gz"
-      sha256 "bee522ee314c15ee8fb1dc8b3a9605627d69cdaf6b4b4370dd95e5d52e12c80c"
+      sha256 "1dbd04d5b384b305331ee3a9d277d1a5d394659ecdc067970d61423136d3d830"
     end
     on_intel do
       url "https://github.com/younsl/o/releases/download/ij/#{version}/ij-linux-amd64.tar.gz"
-      sha256 "752f7f9f27346710326b2ae1bf10ef1fc25e939a96b9e35ace0cd896f28330bc"
+      sha256 "594e4eec86ab77e9061b490785ce7a778495ddc7f0595064beb0df524b2f2505"
     end
   end
 
