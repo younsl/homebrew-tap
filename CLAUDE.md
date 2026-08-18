@@ -26,7 +26,7 @@ All formulas follow a strict pattern:
 
 - **Binary source:** Prebuilt binaries from `https://github.com/younsl/o/releases/download/{formula}/{version}/{binary}-{os}-{arch}.tar.gz`
 - **Platform matrix:** 4 targets required — macOS ARM64/Intel, Linux ARM64/Intel (`on_macos`/`on_linux` + `on_arm`/`on_intel` blocks)
-- **Install method:** Renames platform-specific binary to the command name (e.g., `karc-darwin-arm64` → `karc`)
+- **Install method:** Renames platform-specific binary to the command name (e.g., `ij-darwin-arm64` → `ij`)
 - **Livecheck regex:** Extracts version from GitHub releases using `regex(%r{formula-name/v?(\d+(?:\.\d+)+)}i)`
 - **Test block:** Asserts `--version` output matches `version.to_s`
 - **Caveats:** Only include when there are runtime dependencies (e.g., kubectl, AWS CLI)
