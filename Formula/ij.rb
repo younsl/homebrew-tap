@@ -12,22 +12,22 @@ class Ij < Formula
   on_macos do
     on_arm do
       url "https://github.com/younsl/addons/releases/download/ij/#{version}/ij-darwin-arm64.tar.gz"
-      sha256 "f82b8392d9fe547be7225e6e20e167d3c022f2f33ba1d2406b05fe53b5857758"
+      sha256 "c3ab78b56fd5ab9079a8d2a5bafd517f97ec8c350879a9759c1dcde60bbf6c32"
     end
     on_intel do
       url "https://github.com/younsl/addons/releases/download/ij/#{version}/ij-darwin-amd64.tar.gz"
-      sha256 "900e39997e6c968818cb6be6d01d775062d26c486056095dd00f98ac2144858c"
+      sha256 "f01f60fb3ca281632f35b184445cb73a08eb48afb765bde87591d03a10a57391"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/younsl/addons/releases/download/ij/#{version}/ij-linux-arm64.tar.gz"
-      sha256 "a079f7b21df77314daec3e54fc9e802eb00da6d02fb74011802c61b1b74beb07"
+      sha256 "375bad6324ee5db030733cce47bdd06d39f5ea030a68ea94f6124f7bf0ae9796"
     end
     on_intel do
       url "https://github.com/younsl/addons/releases/download/ij/#{version}/ij-linux-amd64.tar.gz"
-      sha256 "a7e40e8c182344d3ef7c4dde56429665a5ddb8cfd7fda855b799aa4204770f4c"
+      sha256 "9744ee010ee6222d2b7bf3845dba0e24dfc268b4f7fca1914463a85a73c849f3"
     end
   end
 
