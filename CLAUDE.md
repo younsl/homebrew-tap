@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Repository Overview
 
-Third-party Homebrew tap distributing prebuilt CLI tool binaries from the [younsl/o](https://github.com/younsl/o) monorepo. Pull requests are disabled; this is a single-maintainer repository.
+Third-party Homebrew tap distributing prebuilt CLI tool binaries from the [younsl/addons](https://github.com/younsl/addons) monorepo. Pull requests are disabled; this is a single-maintainer repository.
 
 ## Common Commands
 
@@ -24,7 +24,7 @@ brew test Formula/<name>.rb
 
 All formulas follow a strict pattern:
 
-- **Binary source:** Prebuilt binaries from `https://github.com/younsl/o/releases/download/{formula}/{version}/{binary}-{os}-{arch}.tar.gz`
+- **Binary source:** Prebuilt binaries from `https://github.com/younsl/addons/releases/download/{formula}/{version}/{binary}-{os}-{arch}.tar.gz`
 - **Platform matrix:** 4 targets required — macOS ARM64/Intel, Linux ARM64/Intel (`on_macos`/`on_linux` + `on_arm`/`on_intel` blocks)
 - **Install method:** Renames platform-specific binary to the command name (e.g., `ij-darwin-arm64` → `ij`)
 - **Livecheck regex:** Extracts version from GitHub releases using `regex(%r{formula-name/v?(\d+(?:\.\d+)+)}i)`

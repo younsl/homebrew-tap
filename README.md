@@ -7,7 +7,7 @@
 > [!NOTE]
 > This repository has [pull requests disabled](https://github.blog/changelog/2026-02-13-new-repository-settings-for-configuring-pull-request-access/) and does not accept external contributions.
 
-[Homebrew](https://brew.sh) [tap](https://docs.brew.sh/Taps) (third-party repository) for [younsl/o](https://github.com/younsl/o) CLI tools. Provides prebuilt binaries so you can install without Rust toolchain.
+[Homebrew](https://brew.sh) [tap](https://docs.brew.sh/Taps) (third-party repository) for [younsl/addons](https://github.com/younsl/addons) CLI tools. Provides prebuilt binaries so you can install without Rust toolchain.
 
 ## Prerequisites
 
@@ -31,7 +31,7 @@ List of installable formulae in this tap.
 
 | Repository | Formula | Version | Description |
 |------------|---------|---------|-------------|
-| [younsl/o](https://github.com/younsl/o/tree/main/box/tools/ij) | [`ij`](Formula/ij.rb) | 0.5.1 | Interactive EC2 Session Manager connection tool with fuzzy search |
+| [younsl/addons](https://github.com/younsl/addons/tree/main/box/tools/ij) | [`ij`](Formula/ij.rb) | 0.5.1 | Interactive EC2 Session Manager connection tool with fuzzy search |
 
 ## License
 
